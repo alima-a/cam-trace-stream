@@ -1,7 +1,9 @@
 <template>
   <div class="stream">
     <h1 class="stream__title">CamTrace stream</h1>
-    <div class="stream__player"></div>
+    <div class="stream__player">
+      <video height="500" id="test_video" controls autoplay src="https://youtu.be/4via-J98jwM"></video>
+    </div>
   </div>
 </template>
 
